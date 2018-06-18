@@ -20,7 +20,9 @@
     "copy-js-subfolders": "copyfiles -u 1 'js/languages/**/*' 'js/templates/**/*' prod",
     "babel": "babel js --out-dir prod; babel main.js --out-file mainBuilt.js",
     "build": "npm-run-all sass:build --parallel babel process-index:build --sequential copy-js-subfolders",
-    "binaries": "./build.sh"
+    "binaries": "./build.sh",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -89,6 +91,8 @@
     "underscore": "^1.8.3",
     "url-parse": "^1.1.7",
     "velocity-animate": "^1.2.3",
-    "yargs": "^6.6.0"
-  }
+    "yargs": "^6.6.0",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
