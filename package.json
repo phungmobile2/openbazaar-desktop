@@ -39,7 +39,7 @@
     "chai": "^3.5.0",
     "copyfiles": "^1.0.0",
     "cross-env": "^1.0.8",
-    "electron": "^1.7.8",
+    "electron": "^36.3.0",
     "eslint": "^4.18.2",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-config-defaults": "^9.0.0",
@@ -89,6 +89,6 @@
     "underscore": "^1.8.3",
     "url-parse": "^1.1.7",
     "velocity-animate": "^1.2.3",
-    "yargs": "^6.6.0"
+    "yargs": "^18.0.0"
   }
 }
