@@ -35,7 +35,7 @@
   "devDependencies": {
     "babel-cli": "^6.10.1",
     "babel-eslint": "^6.0.5",
-    "browser-sync": "^2.13.0",
+    "browser-sync": "^3.0.0",
     "chai": "^3.5.0",
     "copyfiles": "^1.0.0",
     "cross-env": "^1.0.8",
